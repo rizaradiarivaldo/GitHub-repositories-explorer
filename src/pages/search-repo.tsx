@@ -3,9 +3,9 @@ import { MdOutlineStarPurple500 } from "react-icons/md"
 import { BiFork } from "react-icons/bi"
 import { useLazyGetListUsersQuery } from "@/store/users/usersApi"
 import { useState } from "react"
-import { Button } from "../button"
-import { Input } from "../input"
-import { Skeleton } from "../skeleton"
+import { Button } from "../components/ui/button"
+import { Input } from "../components/ui/input"
+import { Skeleton } from "../components/ui/skeleton"
 
 export default function SearchRepo() {
   const [getData, { data: users, isSuccess, isFetching }] = useLazyGetListUsersQuery()
