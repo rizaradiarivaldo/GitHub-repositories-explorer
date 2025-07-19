@@ -30,4 +30,4 @@ Aplikasi web React untuk mencari user GitHub dan menampilkan daftar repository m
 - **Vite** — Build tool dan dev server.
 - **Tailwind CSS + shadcn** — Styling utility-first.
 
-🚀 [Explore Application](https://rizaradiarivaldo.github.io/ATask-Repositories)
+🚀 [Explore Application](https://rizaradiarivaldo.github.io/GitHub-repositories-explorer)
