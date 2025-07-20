@@ -1,33 +1,33 @@
 ## ATask Repositories
 
-Aplikasi web React untuk mencari user GitHub dan menampilkan daftar repository milik user tersebut.
+A React web application to search for GitHub users and display a list of their repositories.
 
-### Fitur Utama
+### Key Features
 
-- **Cari User GitHub:**
-  - Input username untuk mencari user GitHub.
-  - Menampilkan hasil user beserta daftar repository milik user tersebut.
-- **Detail Repository:**
-  - Setiap repository menampilkan nama, deskripsi, jumlah bintang, dan jumlah fork.
-  - Terdapat link langsung ke halaman repository di GitHub.
-- **UI Modern:**
-  - Menggunakan komponen Accordion, Button, Input, dan Skeleton untuk tampilan interaktif.
+- **Search GitHub Users:**
+  - Input a username to search for a GitHub user.
+  - Displays the user's profile along with their repositories.
+- **Repository Details:**
+  - Each repository shows its name, description, star count, and fork count.
+  - Includes a direct link to the repository page on GitHub.
+- **Modern UI:**
+  - Uses Accordion, Button, Input, and Skeleton components for an interactive interface.
 - **Loading State:**
-  - Skeleton loader saat data sedang diambil.
+  - Skeleton loader while fetching data.
 
-### Struktur Utama Kode
+### Main Code Structure
 
-- `src/components/ui/pages/search-repo.tsx` — Halaman utama pencarian user dan repository.
-- `src/store/` — State management menggunakan Redux Toolkit dan RTK Query.
-- `src/helpers/axios.interceptor.ts` — Konfigurasi dan interceptor untuk request API menggunakan Axios.
-- `src/lib/utils.ts` — Utility function untuk className merge.
+- `src/components/ui/pages/search-repo.tsx` — Main page for user and repository search.
+- `src/store/` — State management using Redux Toolkit and RTK Query.
+- `src/helpers/axios.interceptor.ts` — API request configuration and interceptor using Axios.
+- `src/lib/utils.ts` — Utility function for merging classNames.
 
 ### Third Party Libraries & Tools
 
-- **React** — Library utama UI.
-- **Redux Toolkit & RTK Query** — State management dan data fetching.
-- **Axios** — HTTP client untuk komunikasi dengan API GitHub.
-- **Vite** — Build tool dan dev server.
-- **Tailwind CSS + shadcn** — Styling utility-first.
+- **React** — Core UI library.
+- **Redux Toolkit & RTK Query** — State management and data fetching.
+- **Axios** — HTTP client for communicating with the GitHub API.
+- **Vite** — Build tool and dev server.
+- **Tailwind CSS + shadcn** — Utility-first styling framework.
 
 🚀 [Explore Application](https://rizaradiarivaldo.github.io/GitHub-repositories-explorer)
